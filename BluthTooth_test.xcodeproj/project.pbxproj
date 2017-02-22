@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851760DC1E5D716F002F8C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 851760DB1E5D716F002F8C38 /* main.m */; };
+		851760DF1E5D716F002F8C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 851760DE1E5D716F002F8C38 /* AppDelegate.m */; };
+		851760E21E5D716F002F8C38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851760E11E5D716F002F8C38 /* ViewController.m */; };
+		851760E51E5D716F002F8C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851760E31E5D716F002F8C38 /* Main.storyboard */; };
+		851760E71E5D716F002F8C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851760E61E5D716F002F8C38 /* Assets.xcassets */; };
+		851760EA1E5D716F002F8C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851760E81E5D716F002F8C38 /* LaunchScreen.storyboard */; };
+		851760F51E5D716F002F8C38 /* BluthTooth_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 851760F41E5D716F002F8C38 /* BluthTooth_testTests.m */; };
+		851761001E5D7170002F8C38 /* BluthTooth_testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 851760FF1E5D7170002F8C38 /* BluthTooth_testUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		851760F11E5D716F002F8C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851760CF1E5D716F002F8C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 851760D61E5D716F002F8C38;
+			remoteInfo = BluthTooth_test;
+		};
+		851760FC1E5D7170002F8C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 851760CF1E5D716F002F8C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 851760D61E5D716F002F8C38;
+			remoteInfo = BluthTooth_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		851760D71E5D716F002F8C38 /* BluthTooth_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluthTooth_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		851760DB1E5D716F002F8C38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		851760DD1E5D716F002F8C38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		851760DE1E5D716F002F8C38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		851760E01E5D716F002F8C38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		851760E11E5D716F002F8C38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		851760E41E5D716F002F8C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		851760E61E5D716F002F8C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		851760E91E5D716F002F8C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		851760EB1E5D716F002F8C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851760F01E5D716F002F8C38 /* BluthTooth_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluthTooth_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		851760F41E5D716F002F8C38 /* BluthTooth_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluthTooth_testTests.m; sourceTree = "<group>"; };
+		851760F61E5D716F002F8C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851760FB1E5D716F002F8C38 /* BluthTooth_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluthTooth_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		851760FF1E5D7170002F8C38 /* BluthTooth_testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluthTooth_testUITests.m; sourceTree = "<group>"; };
+		851761011E5D7170002F8C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		851760D41E5D716F002F8C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851760ED1E5D716F002F8C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851760F81E5D716F002F8C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		851760CE1E5D716F002F8C38 = {
+			isa = PBXGroup;
+			children = (
+				851760D91E5D716F002F8C38 /* BluthTooth_test */,
+				851760F31E5D716F002F8C38 /* BluthTooth_testTests */,
+				851760FE1E5D7170002F8C38 /* BluthTooth_testUITests */,
+				851760D81E5D716F002F8C38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		851760D81E5D716F002F8C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				851760D71E5D716F002F8C38 /* BluthTooth_test.app */,
+				851760F01E5D716F002F8C38 /* BluthTooth_testTests.xctest */,
+				851760FB1E5D716F002F8C38 /* BluthTooth_testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		851760D91E5D716F002F8C38 /* BluthTooth_test */ = {
+			isa = PBXGroup;
+			children = (
+				851760DD1E5D716F002F8C38 /* AppDelegate.h */,
+				851760DE1E5D716F002F8C38 /* AppDelegate.m */,
+				851760E01E5D716F002F8C38 /* ViewController.h */,
+				851760E11E5D716F002F8C38 /* ViewController.m */,
+				851760E31E5D716F002F8C38 /* Main.storyboard */,
+				851760E61E5D716F002F8C38 /* Assets.xcassets */,
+				851760E81E5D716F002F8C38 /* LaunchScreen.storyboard */,
+				851760EB1E5D716F002F8C38 /* Info.plist */,
+				851760DA1E5D716F002F8C38 /* Supporting Files */,
+			);
+			path = BluthTooth_test;
+			sourceTree = "<group>";
+		};
+		851760DA1E5D716F002F8C38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				851760DB1E5D716F002F8C38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		851760F31E5D716F002F8C38 /* BluthTooth_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				851760F41E5D716F002F8C38 /* BluthTooth_testTests.m */,
+				851760F61E5D716F002F8C38 /* Info.plist */,
+			);
+			path = BluthTooth_testTests;
+			sourceTree = "<group>";
+		};
+		851760FE1E5D7170002F8C38 /* BluthTooth_testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				851760FF1E5D7170002F8C38 /* BluthTooth_testUITests.m */,
+				851761011E5D7170002F8C38 /* Info.plist */,
+			);
+			path = BluthTooth_testUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		851760D61E5D716F002F8C38 /* BluthTooth_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851761041E5D7170002F8C38 /* Build configuration list for PBXNativeTarget "BluthTooth_test" */;
+			buildPhases = (
+				851760D31E5D716F002F8C38 /* Sources */,
+				851760D41E5D716F002F8C38 /* Frameworks */,
+				851760D51E5D716F002F8C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluthTooth_test;
+			productName = BluthTooth_test;
+			productReference = 851760D71E5D716F002F8C38 /* BluthTooth_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		851760EF1E5D716F002F8C38 /* BluthTooth_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851761071E5D7170002F8C38 /* Build configuration list for PBXNativeTarget "BluthTooth_testTests" */;
+			buildPhases = (
+				851760EC1E5D716F002F8C38 /* Sources */,
+				851760ED1E5D716F002F8C38 /* Frameworks */,
+				851760EE1E5D716F002F8C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851760F21E5D716F002F8C38 /* PBXTargetDependency */,
+			);
+			name = BluthTooth_testTests;
+			productName = BluthTooth_testTests;
+			productReference = 851760F01E5D716F002F8C38 /* BluthTooth_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		851760FA1E5D716F002F8C38 /* BluthTooth_testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8517610A1E5D7170002F8C38 /* Build configuration list for PBXNativeTarget "BluthTooth_testUITests" */;
+			buildPhases = (
+				851760F71E5D716F002F8C38 /* Sources */,
+				851760F81E5D716F002F8C38 /* Frameworks */,
+				851760F91E5D716F002F8C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				851760FD1E5D7170002F8C38 /* PBXTargetDependency */,
+			);
+			name = BluthTooth_testUITests;
+			productName = BluthTooth_testUITests;
+			productReference = 851760FB1E5D716F002F8C38 /* BluthTooth_testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		851760CF1E5D716F002F8C38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Wistron;
+				TargetAttributes = {
+					851760D61E5D716F002F8C38 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 29G3VK6224;
+						ProvisioningStyle = Automatic;
+					};
+					851760EF1E5D716F002F8C38 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 29G3VK6224;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 851760D61E5D716F002F8C38;
+					};
+					851760FA1E5D716F002F8C38 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 29G3VK6224;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 851760D61E5D716F002F8C38;
+					};
+				};
+			};
+			buildConfigurationList = 851760D21E5D716F002F8C38 /* Build configuration list for PBXProject "BluthTooth_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 851760CE1E5D716F002F8C38;
+			productRefGroup = 851760D81E5D716F002F8C38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				851760D61E5D716F002F8C38 /* BluthTooth_test */,
+				851760EF1E5D716F002F8C38 /* BluthTooth_testTests */,
+				851760FA1E5D716F002F8C38 /* BluthTooth_testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		851760D51E5D716F002F8C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851760EA1E5D716F002F8C38 /* LaunchScreen.storyboard in Resources */,
+				851760E71E5D716F002F8C38 /* Assets.xcassets in Resources */,
+				851760E51E5D716F002F8C38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851760EE1E5D716F002F8C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851760F91E5D716F002F8C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851760D31E5D716F002F8C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851760E21E5D716F002F8C38 /* ViewController.m in Sources */,
+				851760DF1E5D716F002F8C38 /* AppDelegate.m in Sources */,
+				851760DC1E5D716F002F8C38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851760EC1E5D716F002F8C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851760F51E5D716F002F8C38 /* BluthTooth_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		851760F71E5D716F002F8C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851761001E5D7170002F8C38 /* BluthTooth_testUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		851760F21E5D716F002F8C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 851760D61E5D716F002F8C38 /* BluthTooth_test */;
+			targetProxy = 851760F11E5D716F002F8C38 /* PBXContainerItemProxy */;
+		};
+		851760FD1E5D7170002F8C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 851760D61E5D716F002F8C38 /* BluthTooth_test */;
+			targetProxy = 851760FC1E5D7170002F8C38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		851760E31E5D716F002F8C38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851760E41E5D716F002F8C38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		851760E81E5D716F002F8C38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851760E91E5D716F002F8C38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		851761021E5D7170002F8C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		851761031E5D7170002F8C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		851761051E5D7170002F8C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29G3VK6224;
+				INFOPLIST_FILE = BluthTooth_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wistron.BluthTooth-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		851761061E5D7170002F8C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29G3VK6224;
+				INFOPLIST_FILE = BluthTooth_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wistron.BluthTooth-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		851761081E5D7170002F8C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 29G3VK6224;
+				INFOPLIST_FILE = BluthTooth_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wistron.BluthTooth-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluthTooth_test.app/BluthTooth_test";
+			};
+			name = Debug;
+		};
+		851761091E5D7170002F8C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 29G3VK6224;
+				INFOPLIST_FILE = BluthTooth_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wistron.BluthTooth-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluthTooth_test.app/BluthTooth_test";
+			};
+			name = Release;
+		};
+		8517610B1E5D7170002F8C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 29G3VK6224;
+				INFOPLIST_FILE = BluthTooth_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wistron.BluthTooth-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BluthTooth_test;
+			};
+			name = Debug;
+		};
+		8517610C1E5D7170002F8C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 29G3VK6224;
+				INFOPLIST_FILE = BluthTooth_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wistron.BluthTooth-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BluthTooth_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		851760D21E5D716F002F8C38 /* Build configuration list for PBXProject "BluthTooth_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851761021E5D7170002F8C38 /* Debug */,
+				851761031E5D7170002F8C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851761041E5D7170002F8C38 /* Build configuration list for PBXNativeTarget "BluthTooth_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851761051E5D7170002F8C38 /* Debug */,
+				851761061E5D7170002F8C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		851761071E5D7170002F8C38 /* Build configuration list for PBXNativeTarget "BluthTooth_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851761081E5D7170002F8C38 /* Debug */,
+				851761091E5D7170002F8C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8517610A1E5D7170002F8C38 /* Build configuration list for PBXNativeTarget "BluthTooth_testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8517610B1E5D7170002F8C38 /* Debug */,
+				8517610C1E5D7170002F8C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 851760CF1E5D716F002F8C38 /* Project object */;
+}
